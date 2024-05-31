@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 });
 app.use(cors());
 
-mongoose.connect("mongodb://127.0.0.1:27017/DE-Project");
+mongoose.connect("mongodb+srv://drdobariya403:lMWktFF044V3m2KU@de-backend.hzzjct8.mongodb.net/?retryWrites=true&w=majority&appName=DE-Backend");
 
 /****************LOGIN/REGISTERS***************/
 app.post("/register", FacultyRegisterController);
